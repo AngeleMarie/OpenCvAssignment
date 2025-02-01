@@ -4,7 +4,7 @@ import cv2
 detector = cv2.QRCodeDetector()
 
 # Read the image
-image = cv2.imread("image2.png")
+image = cv2.imread("qrcode.png")
 
 # Detect and decode the QR code
 data, points, _ = detector.detectAndDecode(image)
